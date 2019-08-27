@@ -1,0 +1,97 @@
+function MyFunction() {
+  var a = document.getElementById("betyg1").value;
+  var b = document.getElementById("betyg2").value;
+  var c = document.getElementById("betyg3").value;
+  var d = document.getElementById("betyg4").value;
+  var e = document.getElementById("betyg5").value;
+  var f = document.getElementById("betyg6").value;
+  var g = document.getElementById("betyg7").value;
+  var h = document.getElementById("betyg8").value;
+  var i = document.getElementById("betyg9").value;
+  var j = document.getElementById("betyg10").value;
+  var k = document.getElementById("betyg11").value;
+  var l = document.getElementById("betyg12").value;
+  var m = document.getElementById("betyg13").value;
+  var n = document.getElementById("betyg14").value;
+  var o = document.getElementById("betyg15").value;
+  var p = document.getElementById("betyg16").value;
+  var q = document.getElementById("betyg17").value;
+  var r = document.getElementById("betyg18").value;
+  var s = document.getElementById("betyg19").value;
+  var t = document.getElementById("betyg20").value;
+  var u = document.getElementById("betyg21").value;
+  var v = document.getElementById("betyg22").value;
+  var x = document.getElementById("betyg23").value;
+  var y = document.getElementById("betyg24").value;
+
+  var a = Math.floor(a)
+  var b = Math.floor(b)
+  var c = Math.floor(c)
+  var d = Math.floor(d)
+  var e = Math.floor(e)
+  var f = Math.floor(f)
+  var g = Math.floor(g)
+  var h = Math.floor(h)
+  var i = Math.floor(i)
+  var j = Math.floor(j)
+  var k = Math.floor(k)
+  var l = Math.floor(l)
+  var m = Math.floor(m)
+  var n = Math.floor(n)
+  var o = Math.floor(o)
+  var p = Math.floor(p)
+  var q = Math.floor(q)
+  var r = Math.floor(r)
+  var s = Math.floor(s)
+  var t = Math.floor(t)
+  var u = Math.floor(u)
+  var v = Math.floor(v)
+  var x = Math.floor(x)
+  var y = Math.floor(y)
+
+
+/*  var a1 = document.getElementById("points1").value;
+  var b1 = document.getElementById("points2").value;
+  var c1 = document.getElementById("points3").value;
+  var d1 = document.getElementById("points4").value;
+  var e1 = document.getElementById("points5").value;
+  var f1 = document.getElementById("points6").value;
+  var g1 = document.getElementById("points7").value;
+  var h1 = document.getElementById("points8").value;
+  var k1 = document.getElementById("points9").value;
+  var i1 = document.getElementById("points10").value;
+  var j1 = document.getElementById("points11").value;
+  var l1 = document.getElementById("points12").value;
+  var a1 = Math.floor(a1)
+  var b1 = Math.floor(b1)
+  var c1 = Math.floor(c1)
+  var d1 = Math.floor(d1)
+  var e1 = Math.floor(e1)
+  var f1 = Math.floor(f1)
+  var g1 = Math.floor(g1)
+  var h1 = Math.floor(h1)
+  var k1 = Math.floor(k1)
+  var i1 = Math.floor(i1)
+  var j1 = Math.floor(j1)
+  var l1 = Math.floor(l1)
+  var a2 = a * a1;
+  var b2 = b * b1;
+  var c2 = c * c1;
+  var d2 = d * d1;
+  var e2 = e * e1;
+  var f2 = f * f1;
+  var g2 = g * g1;
+  var h2 = h * h1;
+  var k2 = k * k1;
+  var i2 = i * i1;
+  var j2 = j * j1;
+  var l2 = l * l1;
+  var p = a2 + b2 + c2 + d2 + e2 + f2 + g2 + h2 + k2 + i2 + j2 + l2;
+  var x = p / 1200 */
+  var p = a + b + c + d + e + f + g + h + k + i + j + l;
+  var x = p / 12;
+
+
+  document.getElementById("summa").innerHTML = x ;
+
+}
